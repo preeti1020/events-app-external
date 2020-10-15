@@ -14,8 +14,8 @@ describe('GET /', function () {
       .reply(200, {
         "status": 200,
         "events": [
-          { "title": 'an event', "id": 1234, "description": 'something really cool CHANGE' },
-          { "title": 'another event', id: 5678, "description": 'something even cooler CHANGE' }
+          { "title": 'an event', "id": 1234, "description": 'something really cool NEW BRANCH TEST' },
+          { "title": 'another event', id: 5678, "description": 'something even cooler NEW BRANCH TEST' }
         ]
       });
 
